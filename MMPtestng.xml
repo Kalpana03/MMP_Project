@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<test name="MMPTest">
+		<parameter name="url"
+			value="http://96.84.175.78/MMP-Release2-Integrated-Build.6.8.000/" />
+		<parameter name="user" value="T_Jefferson1" />
+		<parameter name="passwd" value="Jefferson@123" />
+		<parameter name="username" value="T_Jefferson1" />
+		<parameter name="password" value="Jefferson@123" />
+		<parameter name="firstName" value="Haarika" />
+		<parameter name="lastName" value="Srinivas" />
+		<parameter name="invalidFname" value="1234566" />		
+		<parameter name= "Age" value="15"/>
+		<parameter name="doctorname" value="Dr.Kalpana" />
+		<parameter name="symptoms" value="cough and cold" />
+		<parameter name="subject_text" value="Feeling sick" />
+		<parameter name="message_text" value="Thank you Doctor!!" />
+		<parameter name="LoginTitle" value="Login" />
+		<classes>
+			<class name="MMPPackage.MMPTestCases" />
+		</classes>
+	</test> <!-- MMPTest -->
+</suite> <!-- Suite -->

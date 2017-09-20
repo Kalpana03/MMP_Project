@@ -47,10 +47,10 @@ public class MMPTestCases {
 	@BeforeTest(description = "TC70 : Lauching MMP Url")
 	public void setUp(String url)
 	{
-		System.setProperty("webdriver.gecko.driver", "geckodriver.exe");
-		driver = new FirefoxDriver();
-		//System.setProperty("webdriver.chrome.driver", "chromedriver.exe");
-		//driver = new ChromeDriver();
+		//System.setProperty("webdriver.gecko.driver", "geckodriver.exe");
+		//driver = new FirefoxDriver();
+		System.setProperty("webdriver.chrome.driver", "chromedriver.exe");
+		driver = new ChromeDriver();
 
 		driver.get("http://96.84.175.78/MMP-Release2-Integrated-Build.6.8.000/");
 		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);

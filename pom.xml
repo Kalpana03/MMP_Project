@@ -47,7 +47,7 @@
 				<configuration>
 					<forkCount>0</forkCount>
 					<suiteXmlFiles>
-						<suiteXmlFile>C://Kalpana//Selenium//Macys//Selenium.maven.demo//MMPtestng.xml</suiteXmlFile>
+						<suiteXmlFile>MMPtestng.xml</suiteXmlFile>
 					</suiteXmlFiles>
 				</configuration>
 			</plugin>

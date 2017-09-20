@@ -97,7 +97,7 @@ public class MMPTestCases {
 		validateCondition(registerPageTitle,"Error opening Registration page","Registration page opened successfully");
 	}
 
-	@Test(enabled = true, priority=1, dataProvider = "DPRegister", description = "TC76: User Registartion with Valid values")
+	@Test(enabled = false, priority=1, dataProvider = "DPRegister", description = "TC76: User Registartion with Valid values")
 	public void userRegisterValid(String firstname, String lastname, String datepicker, String license, String ssn, 
 			String state, String city, String address, String zipcode, 
 			String age, String height, String weight, String email, 

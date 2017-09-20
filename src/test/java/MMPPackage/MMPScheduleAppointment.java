@@ -36,6 +36,7 @@ public class MMPScheduleAppointment {
 		driver.findElement(By.id("ChangeHeatName")).click();
 		Thread.sleep(3000);
 		driver.switchTo().defaultContent();
+		Thread.sleep(3000);
 		driver.findElement(By.xpath("//*[@id='sym']")).sendKeys(symptoms);
 		driver.findElement(By.xpath("//div[3]/input")).sendKeys(Keys.ENTER);
 		String doctor_Name = driver.findElement(By.xpath("//tr[1]/td[4]")).getText();
